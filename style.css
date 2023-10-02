@@ -1,0 +1,81 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width:100wh;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background:linear-gradient(45deg,#0a0a0a,#3a4452);
+}
+input{
+    text-align: right;
+    width:205px;
+    height: 30px;
+    font-size: 30px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    /* border:none; */
+   
+    
+    margin-bottom: 5px;
+}
+button{
+    /* padding: */
+   
+    border-radius: 100%;
+    height: 40px;
+    font-size: 15px;
+    width: 40px;
+    margin: 5px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    box-shadow: -5px -5px 5px rgba(255,255,255,0.1);
+    text-align: center;
+    align-items: center;
+   
+
+    
+}
+.col{
+    color:green;
+    font-size:20px;
+}
+button:hover{
+    transition: all;
+    transform: scale(1.1212);
+    /* border:1px solid black; */
+    background-color: #3a4452;
+    font-size: 18px;
+}
+.button{
+    gap:15px;
+    display: flex;
+}
+.text{
+    /* font-size: 10px; */
+}
+p{
+    font-size: 20px;
+   margin: 1px auto;
+   color: greenyellow;
+ 
+  
+   
+}
+@media only screen and (max-width: 280px){
+    button{
+        margin: 2px;
+    }
+
+}
+@media only screen and (max-width: 240px){
+    button{
+        margin: 1px;
+    }
+
+}
